@@ -1,0 +1,94 @@
+/*********** HOME PAGE ***********/
+
+#bsthome {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3em;
+}
+
+#bstdesc {
+  text-align: center;
+  font-family: 'Square Peg', sans-serif;
+  font-size: 2em;
+}
+
+#wikipage {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.5em;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/********* BST PAGE **********/
+
+#bstpage {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5em;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#bstinput {
+  text-align: center;
+  font-size: 2em;
+}
+
+#input {
+  padding-top: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#bstsearchbutton {
+  margin-left: 10px;
+  font-size: 0.5em;
+  background-color: blue;
+  color: white;
+}
+
+/********* RESULTS PAGE *********/
+
+#bstresults {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 3em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+pre {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 1.3em;
+  font-family: 'Source Code Pro', monospace;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Whisper', cursive;
+  font-size: 1.5em;
+  color: gray;
+  padding-top: 50px;
+}
+
+/********* NAV BAR **********/
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+
+#nav a {
+  color: blue;
+}
