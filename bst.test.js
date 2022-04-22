@@ -21,11 +21,11 @@ test('test to see if inputs rotate left and right', () => {
     newBst.insert(3);
     newBst.insert(4);
     newBst.insert(5);
-    expect(newBst.root.value).toBe(4);
-    expect(newBst.root.left.value).toBe(2);
-    expect(newBst.root.right.value).toBe(5);
-    expect(newBst.root.left.left.value).toBe(1);
-    expect(newBst.root.left.right.value).toBe(3);
+    expect(newBst.root.value).toBe(2);
+    expect(newBst.root.left.value).toBe(1);
+    expect(newBst.root.right.value).toBe(4);
+    expect(newBst.root.right.left.value).toBe(3);
+    expect(newBst.root.right.right.value).toBe(5);
     console.log(newBst, null, 2);
 });
 
